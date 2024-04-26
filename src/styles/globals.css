@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'MyCustomFontM';
+}
+
+
+
+@font-face {
+  font-family: 'MyCustomFontM';
+  src: url('/fonts/UNIVERSNEXTFORHSBC-REGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+
+
+@font-face {
+  font-family: 'MyCustomFontB';
+  src: url('/fonts/UNIVERSNEXTFORHSBC-BOLD.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+.mainContainerBG{
+  background-image:url('/fbg.png');
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
